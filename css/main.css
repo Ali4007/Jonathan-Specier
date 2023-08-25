@@ -1,0 +1,107 @@
+*{
+    font-family: "Prata", serif;
+}
+body{
+    background-color:black;
+    
+}
+ 
+header .navbar{
+background-color: black !important;
+
+}
+.navbar-toggler{
+    color: rgba(0, 0, 0, 0);
+    border:none var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+    border-radius:none var(--bs-navbar-toggler-border-radius);
+    transition:none var(--bs-navbar-toggler-transition);
+}
+.border-bottom {
+    border-bottom:none var(--bs-border-width) var(--bs-border-style) var(--bs-border-color)!important;
+}
+.chats{
+    margin-left:100px;
+}
+.navbar-brand{
+font-size: 30px;
+font-weight:400;
+ 
+}
+.btn {
+    color: black;
+    background-color: #fbe850;
+    border-radius: 1px;
+    padding: 8px 18px;
+    transition: all 0.4s;
+    border: 1px solid #fbe850;
+}
+.nav-link{
+    font-size: 22px;
+}
+.navbar-collapse {
+    -ms-flex-preferred-size: 100%;
+    flex-basis: 100%;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+    -ms-flex-align: center;
+    align-items: center;
+}
+ 
+main  h1{
+    color:white;
+    font-size: 50px;
+    font-family: "Prata", serif; 
+    font-weight: 400;
+ }
+
+main  p{
+    color:grey;
+    font-size: 25px;
+}
+main .section-4 {
+    background-color: #2e3038;
+}
+.text-right{
+    text-align: right;
+    font-size: 50px;
+   
+}
+h6{
+    color:white;
+    font-size: 40px;
+    font-family: "Prata", serif; 
+    font-weight: 400;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.mb-3{
+    color:white;
+    font-size: 40px;
+    font-weight: 500;
+
+}
+.col-6{
+    color:white;
+}
+.btn:hover{
+background-color: black;
+color: yellow;
+}
+.goo h1{
+    color:white;
+}
+footer {
+    background-color: #2e3038;
+}
+.section-5{
+    margin-left: 100px;
+}
+h4{
+    color:white;
+}
+
+@media (max-width: 576px){
+main .section-1 div h1 {
+    font-size: 30px;
+} 
+}
